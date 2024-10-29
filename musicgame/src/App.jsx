@@ -10,6 +10,7 @@ export function App() {
   const [score, setScore] = useState(0);
   const [message, setMessage] = useState(0);
 
+  
   useEffect(() => {
     setScore(10);
     setMessage("Bienvenue");
